@@ -1,0 +1,727 @@
+
+/*---------------------------GENERAL STYLING--------------------------------------------------------*/
+
+h1 {
+	font-family: "Sofia", sans-serif;
+	font-size: 40px;
+	color: red;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: red;
+}
+
+h2 {
+	font-family: "Sofia", sans-serif;
+	font-size: 30px;
+	color: orangered;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: orangered;
+}
+
+h3 {
+	font-family: "Sofia", sans-serif;
+	font-size: 20px;
+	color: orangered;
+	text-align: center;
+	
+}
+
+a {
+	font-family: "Sofia", sans-serif;
+	font-size: 15px;
+	color: purple;
+	text-align: center;
+	
+} 
+
+p {
+	font-family: "Sofia", sans-serif;
+	font-size: 15px;
+	color: orange;
+	text-align: center;
+	
+}
+
+
+
+body {
+	
+	background-color: rgb(2,19,46);
+	background-size: contain;
+	position: relative;
+  	min-height: 100vh;
+}
+
+/* ------------------------HEADER SECTION STYLING-------------------------------------------------------*/
+header {
+	
+	grid-area: header;
+		
+	background-image: url("../assets/images/heading.jpg");
+	background-size: cover;
+	border-bottom:  double;
+	margin-top: -8px;
+	margin-left: -8px;
+	border-bottom-color: gold;
+	
+	position: fixed;
+	top: 0;
+	z-index: 3500;
+	
+	width: 100%;
+	
+}
+
+.heading_title{
+	
+	font-family: "Bungee Spice";
+	font-size: 50px;
+	border-bottom-style: hidden;
+	
+}
+
+
+.heading_menu{
+	display: flex;
+	justify-content:center;
+}
+
+.menu_link{
+	
+	text-align: center;
+	border-color: gold;
+	border-style: solid;
+	border-radius: 5px;
+	background-color:yellow;
+	margin: 5px;
+	color: orangered;
+	font-size: 23px;
+	text-align: center;
+	width: 100%;
+	font-family: "Sofia", sans-serif;
+	opacity: 0.7;
+	text-decoration: none
+}
+
+.menu_link:hover{
+	opacity: 1;
+}
+/* -----------------------MAIN SECTION STYLING-----------------------------------------------------------*/
+
+/*
+    ---------------------- Main styling
+*/
+main{
+	
+	font-family: "Sofia", sans-serif;
+	width : 75%;
+	position: relative;
+	margin-top: 190px;
+	
+}
+/*
+    This anchor allows to side menu links to go to the correct area without
+    being offset
+*/
+.anchor{
+	position: relative;
+	top:-175px;
+}
+/*
+    ---------------------- News videos banner styling
+                        This code was adaptaed from source [1]
+*/
+.news_videos_banner{
+	width 7200px;
+	height: 350px;
+	margin: 0 auto;
+
+	overflow: hidden;
+	position: relative;
+	
+	border-bottom: solid;
+	border-bottom-color: purple;
+	
+
+}
+
+.news_videos_banner .video_banner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-o-transition: all ease-in-out 500ms;
+	
+}
+
+.news_video{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news_videos_banner #video_banner_4{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.news_videos_banner #video_banner_3{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.news_videos_banner #video_banner_2{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.news_videos_banner #video_banner_1{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*
+    ---------------------- Community headlines banner styling
+                            This code was adaptaed from source [1]
+*/
+
+.community_headlines_banner {
+	width 720px;
+	height: 550px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+	position: relative;
+	
+	border-bottom: solid;
+	border-bottom-color: purple;
+
+}
+
+
+.headline_image:hover {
+	opacity: 0.7;
+}
+
+.headline_image{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.community_headlines_banner .community_image_banner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-o-transition: all ease-in-out 500ms;
+	
+	
+}
+
+
+.community_headlines_banner #community_image_banner_3{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.community_headlines_banner #community_image_banner_2{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.community_headlines_banner #community_image_banner_1{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*
+    ---------------------- banner button styling
+                            This code was adaptaed from source [1]
+*/
+
+.headline_button, .video_button{
+	width: 60px;
+	height: 60px;
+	background-color: palevioletred;
+	border-radius: 4px;
+	position: absolute;
+	top: 280px;
+	z-index: 2500;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.video_button{
+	top: 130px;
+}
+
+.headline_button:hover,.video_button:hover{
+	opacity: 0.9;
+}
+
+
+
+.headline_button_previous, .video_button_previous{
+	left: 5px;
+	background-image: url(../assets/images/left.png);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.headline_button_next, .video_button_next{
+	right: 5px;
+	background-image: url(../assets/images/right.png);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+/*
+    ------------------article section styling on page-1
+*/
+
+
+#home_article_section{
+    
+    /*
+        Make it so that articles appear in a line next to each other
+    */
+	display: grid;
+	
+	grid-template-areas: 
+		"article_1  article_2";
+	
+	grid-template-columns: auto auto;
+	
+	text-align: center;
+}
+
+#home_article_section_1_patch_notes_heading{
+	border-bottom-style: hidden;
+}
+
+#home_article_section_1_container{
+	margin: 10px;;
+	border-right: solid;
+	border-right-color: gold
+}
+
+
+#home_article_section_2_container{
+	margin: 10px;
+	border-left: solid;
+	border-left-color: gold;
+	
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+}
+
+
+#home_article_section_2_table{
+	color: orangered;
+}
+
+/*
+    ------------------champion guide area styling on page-3
+*/
+
+.champion_guide_container_inner{
+    /*
+        Make it so that champion image and guide video appear in a line next to each other
+    */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.champion_guide_image_container{
+    widows: 100%;
+    height: 100%;
+	margin: 10px;
+	border-right: solid;
+	border-top: solid;
+	border-right-color: purple;
+	border-top-color: red;
+}
+
+.champion_guide_video_container{
+	margin: 10px;
+}
+
+.champion_guide_video{
+    widows: 100%;
+    height: 100%;
+}
+/*
+    ------------------tier list styling on page-3
+*/
+#tier_list{
+    width: 100%;
+    height: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+    Form styling for the form on page-5
+*/
+
+
+#form_section{
+    /*
+        Make the form appear in the center of the main area
+    */  
+	display: flex;
+	justify-content: center;
+}
+
+#input_form {
+    /*
+        All the items in the form appear in a column with
+        one item on top of another
+    */  
+	display: flex;
+	
+	flex-direction: column;
+	
+	width: 65%;
+	
+	border-radius: 8px;
+	
+	background-color: cornflowerblue;
+	
+	
+}
+
+.input_label {
+    margin-left: 10px;
+    color: purple;
+    
+}
+
+#first_name , #last_name, #email, #message_area{
+	margin: 10px;
+	padding: 9px 15px;
+	border-radius: 6px;
+}
+
+
+
+#email {
+	overflow-y: scroll;
+}
+
+
+#message_button {
+	margin: 10px;
+	border-radius: 6px;
+}
+
+
+
+/*--------------------- ASIDE SECTION STYLING--------------------------------------------------*/
+aside {
+	
+	font-family: "Sofia", sans-serif;
+
+    /*
+        Position the aside section to the right
+        in a fixed position.
+    */
+    
+	position: fixed;
+	top: 220px;
+
+	margin-left: 75%;
+    
+     /*
+        Display the accessibility button and links menu in
+        a coloumn with the button on top
+    */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
+   ------------------------ Accessibility area stylings
+*/
+
+
+.accessibility_options_button{
+	color: red;
+	font-size: 20px;
+	width: auto;
+	background-color: purple;
+	border-color: gold;
+	
+	position: fixed;
+
+}
+
+.accessibility_options_dropdown_content{
+    margin-top: 25px;
+    z-index: 200;
+    display: none;
+    position: absolute;
+ 
+}
+
+.accessibility_button{
+    color: orangered;
+	font-size: 20px;
+	width: 200px;
+    height: 50px;
+	background-color:palevioletred;
+	border-color: gold;
+}
+
+
+/*
+   accessibility area hover code
+    
+*/
+.accessibility_options_button:hover{
+    background-color: pink;
+}
+
+/*
+     This code was adapted from source [2] 
+*/
+
+.accessibility_options:hover .accessibility_options_dropdown_content{
+    display: block;
+}
+
+
+.accessibility_button:hover{
+    background-color: pink;
+}
+
+.accessibility_options{
+    position: relative;
+  display: inline-block;
+}
+
+/*
+    ----------------------side menu styling
+*/
+
+.side_menu {
+		position: fixed;
+		
+		margin-top: 55px;
+		
+		max-height: 240px;
+	
+		overflow-y: scroll;
+        
+        overflow-x: scroll;
+		
+		border: solid;
+	
+		border-color: gold;
+	
+		height: 100vh;
+        width: 40vh;
+    
+}
+
+.side_menu_heading {
+	text-align: center;
+	
+}
+
+.youtuber_table_row{
+    display: flex;
+    flex-direction:column;
+    
+    margin-bottom: 30px;
+
+}
+
+
+/* ----------------FOOTER SECTION STYLING----------------------------------------------------*/
+
+footer{
+    
+    /*
+        The footer is divided in three sections. a
+        left, middle and right which are correctly 
+        laid out below in a grid.
+    */
+	grid-area: footer;
+	
+	display: grid;
+	
+	grid-template-areas: 
+		"left mid right";
+	
+	grid-template-columns: auto auto auto;
+	 
+	
+    /*
+        The footer appears at the bottom of the page with an absolute
+        position. further adjustments are made below
+    */
+	margin-top: -8px;
+	margin-left: -9px;
+	position: absolute;
+	bottom: -60px;
+	width: 98.8vw;
+	height: 2.5rem;   
+	
+	
+}
+
+    /*
+        ----------------General footer styiling   
+    */
+
+.footer_contacts{
+    /*
+        Grid area specified
+    */
+	grid-area: left;
+    
+	color: red;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Sofia", sans-serif;
+	border-left-color: black;
+	border-right-color: gold;
+	border-bottom-color: black;
+	border-top-color: black;
+	border-style: solid;
+	background-color: black;
+}
+.footer_title_container{
+    /*
+        Grid area specified
+    */
+	grid-area: mid;
+    
+	text-align: center;
+	border-left-color: gold;
+	border-right-color: gold;
+	border-bottom-color: black;
+	border-top-color: black;
+	border-style: solid;
+	background-color: black;
+}
+
+    /*
+        The footer title is identicle to the
+        header title.
+    */
+.footer_title{
+	font-family: "Bungee Spice";
+	font-size: 50px;
+}
+
+.footer_about {
+    /*
+        Grid area specified
+    */
+	grid-area: right;
+    
+	color: red;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Sofia", sans-serif;
+	border-left-color: gold;
+	border-bottom-color: black;
+	border-top-color: black;
+	border-right-color: black;
+	border-style: solid;
+	background-color: black;
+}
+
+.footer_about_link{
+	color: red;
+}
+
+.footer_contact_link{
+	color: red;
+}
+
+
+/* ----------------RESPONSIVE CODE FOR SMARTPHONES -------------------------------------------*/
+
+/* 
+    For screens up to 800px do the following
+*/
+@media only screen  and (max-width:800px){
+    /*Hide the aside section*/
+	aside {
+		visibility: hidden;
+	}
+	
+    
+    /*
+        On page-3, change it so the champion image apears over the 
+        guide video instead of next to each other
+    */
+     .champion_guide_container_inner{
+        flex-direction: column;  
+    }
+    
+    
+     /*
+        On index, change it so that articles on page-1 appear in a column one after
+        another instead of next to each other
+    */
+    #home_article_section{
+        display: flex;
+        
+        flex-direction: column;
+    }
+    
+    /*
+        the rest of the code scales the respective 
+        elements to fit the screen
+    */
+    
+    main {
+		top: -40px;
+        width: auto;
+        
+	}
+    
+	header {
+		height: auto;
+	}
+	
+	
+    
+    .menu_link{
+       font-size: 11px;
+    }
+    
+    .heading_title {
+        font-size: 15px;
+    }
+}
+

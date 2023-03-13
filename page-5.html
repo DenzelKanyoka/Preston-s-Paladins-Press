@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Contact us</title>
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A news website for the game paladins that includesinformation 
+            about the current meta as decided by the community, as well as news about prominent community memebers.">
+        <meta name = "keywords" content = "Preston's Paladins Press, Paladins, Realm, balance changes,community news, meta">
+        <meta name = "author" content="Denzel Rufaro Kanyoka">
+        <meta name = "veiwport" content = "width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" type = "text/css" href = "StyleSheets/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bungee Spice' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    
+    <body>
+        
+        <!-- header section -->
+        
+        <!-- The header section has two elements inside it. The Main title. And the 
+            header links that lead to other pages. The main title appears on top. And the
+            links appear at the bottom next to each other-->
+         <header class = "heading">
+            <!-- The main title-->
+            <div class = "heading_title_container">
+                <h1 class = "heading_title">Preston's Paladins Press</h1>
+            </div>
+            
+            <!-- Menu section -->
+            <nav class = "heading_menu">
+                <!-- The menu links------------------------------------------------------->
+               <a class = "menu_link" href = "index.html" id= "home_link"> home</a> 
+                <a class = "menu_link" href = "page-2.html" id= "community_link"> Community news</a> 
+                <a class = "menu_link" href = "page-3.html" id="meta_link"> Meta information</a>
+                <a class = "menu_link" href = "page-4.html" id = "about_link"> About us</a>
+                <a class = "menu_link" href = "page-5.html" id ="contact_link"> Contact us</a>
+                
+            </nav>
+        </header>
+        
+		      <!-- main area-->
+			<main class = "main_area">
+                
+                <!-- form section-->
+                
+				<section id = "form_section">
+                    
+                    <!-- input form-->
+                    <!-- In this form, all the elements are in a column with one element of the other-->
+					<form id = "input_form">
+                        
+                         <!-- first name label and input-->
+						<label class =  "input_label" for = "first_name">first name</label>
+						<input class = "name_input" type = "text" id = "first_name" name = "first_name">
+						
+                         <!-- last name label and input-->
+						<label class =  "input_label" for = "last_name">last name</label>
+						<input class = "name_input" type = "text" id ="last_name" name = "last_name">
+						
+                         <!-- email label and input-->
+						<label class =  "input_label" for = "email">email address</label>
+						<input type = "text" id = "email" name = "email">
+						
+                         <!-- message label and text area-->
+						<label class =  "input_label" for = "message_area">enter your message here</label>
+						<textarea id = "message_area" name = "message_area" rows = "10" cols = "60"> </textarea>	
+						
+                         <!-- submit button-->
+						<button id = "message_button">Submit</button>
+
+					</form>
+				</section>
+                
+                <!-- form script-->
+				<script src = "scripts/form-script.js"></script>
+			</main>
+            
+            <!-- Aside section-->
+            <!--This section has two parts, the accessibility button and side menu, which appear
+                in a column with the accessibility button on top-->
+			<aside class = "main_side_menu">
+                 <!--This code was adapted from source [2] -->
+                <!-- accessibility options container-->
+				<div class = "accessibility_options">
+                    
+                    <!-- accessibility options button-->
+                    <!-- This is a dropdown button that when hovered on, displays the contents contained
+                    in the accessibility_options_dropdown_content div-->
+					<button class = "accessibility_options_button">Accessibility Options▼</button>
+                    
+                     <!-- accessibility options dropdown container-->
+                    <div class ="accessibility_options_dropdown_content">
+                            
+                        <!-- accessibility buttons that apply their respective accessibility feature-->
+                            <button class = "accessibility_button" id = "readable_text_button_contact">
+                                Toggle readable font
+                            </button>
+                            <button class = "accessibility_button" id = "font_size_contact" >
+                                Toggle bigger font size
+                            </button>
+                        </div>
+                    <!-- accessibility options script-->
+                    <script src ="scripts/Accessibility-contact.js"></script>
+				</div>
+                
+                <!-- side menu-->
+                <!-- this siction has a heading on top and then the list of items underneath one onother-->
+                <div class = "side_menu">
+                    <!-- side menu heading-->
+                    <h3 class = "side_menu_heading">
+                            Here is a list of other paladins websites you might also want to visit
+                    </h3>
+                    <!-- side menu list-->
+                    <ul>
+            <!---- side menu list elements--------------------------------------------------------->
+                        <li>
+                            <a class = "side_menu_link" href = "https://www.paladins.com/" target="_blank">Official paladins website</a>
+                        </li>
+                        <li>
+                            <a class = "side_menu_link" href = "https://paladins.fandom.com/wiki/Paladins_Wiki" target="_blank">
+                                Paladins wiki
+                            </a>
+                        </li>
+                        <li>
+                            <a class = "side_menu_link" href = "https://paladins.guru/" target="_blank">Paladins Guru</a>
+                        </li>
+                    </ul>
+                </div>
+			</aside>
+		
+		<!-- Footer section----------------------------------------------------------------------->	
+        
+        <!-- The footer section appears at the bottom and is made up of three
+            sections that are laid out in a line next to each other-->
+        <footer class = "page_footer">
+            
+            <!-- A section with contact details-->	
+            <address class = "footer_contacts">
+                <p class = "footer_email">our-email@email-service.com</p>
+                <p class = "footer_number">999 999 9999</p>
+                
+            </address>
+            
+            <!-- Main footer title section-->	
+            <div class = "footer_title_container">
+                <h1 class = "footer_title">Preston's Paladins Press</h1>
+            </div>
+            
+            <!-- Footer about section-->	
+            <div class = "footer_about">
+                 <a class = "footer_about_link" href = "page-4.html"> learn more about us here</a>
+            </div>
+        </footer>
+		
+    </body>
+    
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Community news</title>
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A news website for the game paladins that includesinformation 
+            about the current meta as decided by the community, as well as news about prominent community memebers.">
+        <meta name = "keywords" content = "Preston's Paladins Press, Paladins, Realm, balance changes,community news, meta">
+        <meta name = "author" content="Denzel Rufaro Kanyoka">
+        <meta name = "veiwport" content = "width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" type = "text/css" href = "StyleSheets/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bungee Spice' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    
+    <body>
+        
+        <!-- header section -->
+        
+        <!-- The header section has two elements inside it. The Main title. And the 
+            header links that lead to other pages. The main title appears on top. And the
+            links appear at the bottom next to each other-->
+        <header class = "heading">
+            <!-- The main title-->
+            <div class = "heading_title_container">
+                <h1 class = "heading_title">Preston's Paladins Press</h1>
+            </div>
+            
+            <!-- Menu section -->
+            <nav class = "heading_menu">
+                <!-- The menu links------------------------------------------------------------------>
+                <a class = "menu_link" href = "index.html" id= "home_link"> home</a> 
+                <a class = "menu_link" href = "page-2.html" id= "community_link"> Community news</a> 
+                <a class = "menu_link" href = "page-3.html" id="meta_link"> Meta information</a>
+                <a class = "menu_link" href = "page-4.html" id = "about_link"> About us</a>
+                <a class = "menu_link" href = "page-5.html" id ="contact_link"> Contact us</a>
+                
+            </nav>
+        </header>
+        
+        <!-- main area-->
+			<main class = "main_area">
+                
+                <!-- news videos banner-->
+                <!--This code was adaptaed from source [1]-->
+                <!-- each banner page has a video and a left and right button. There are 4 pages-->
+				<div id = "news_videos">
+                    
+                    <!-- anchor-->
+                    <!-- The anchor makes sure the banner is not offset when a link is directs the user to it-->
+					<div class = "anchor" id = "news_videos_anchor"></div>
+                    
+                    <!-- banner heading-->
+					<h1 id = "news_videos_heading">News Videos</h1>
+					<div class = "news_videos_banner" id = "news_videos_banner">
+						
+                        <!-- left button-->
+						<div class = "video_button video_button_previous" id = "video_button_previous">
+				   		</div>
+						
+                        
+            <!----------- banner pages------------------------------------------------------------------->
+                        <!-- each page has a youtube video-->
+                        
+						<div class = "video_banner" id = "video_banner_4">
+							<iframe class = "news_video" width="560" height="315" src="https://www.youtube.com/embed/aESTEeaZ6rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+
+						<div class = "video_banner" id = "video_banner_3">
+							<iframe class = "news_video" width="560" height="315" src="https://www.youtube.com/embed/d-jkPDFsb0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+
+						<div class = "video_banner" id = "video_banner_2">
+							<iframe class = "news_video" width="560" height="315" src="https://www.youtube.com/embed/Jp6E1GDQWHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+
+						<div class = "video_banner" id = "video_banner_1">
+							<iframe class = "news_video" width="560" height="315" src="https://www.youtube.com/embed/Pe9t7Iwd7bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+                        
+                        
+						
+        <!----- right button------------------------------------------------------------------------>
+						<div class = "video_button video_button_next" id = "video_button_next">
+				   		</div>
+						
+					</div>
+				</div>
+				
+                <!-- banner script-->
+				<script src="scripts/video-banner.js"></script>
+                
+                <!--news articles section---->
+				<div id = "news_articles">
+                    
+    <!----------- news articles section---------------------------------------------------------------------->
+                     <!-- each article has heading on top and the article paragraph below it-->
+                    
+                    
+                     <!-- article 1-->
+					<div class = "news_article_container" >
+						<div class = "anchor" id = "payload_return"></div>
+						<h1 class = "news_article_heading">Payload returns to Paladins after half a decade</h1>
+						<p class = "news_article_paragraph">
+                            <!-- This information is from source [4]-->
+							 After 5 of being removes, the payload gamemode return to paladins. However it is in a unique format. It will now be in a limited time mode that is available only during weekdays. The two maps have rturned unchanged but as a result, some newer champions such as yagorath, might not interact will with them as they were designed  at a time were payload was thought to never return. Based on the reactions of all the popular content creators and their fan bases, it is safe to say that a majority are excited for the return of this mode.
+						</p>
+					</div>
+
+                     <!-- article 2-->
+					<div class = "news_article_container" >
+						<div class = "anchor" id = "dev_fired"></div>
+						<h1 class = "news_article_heading">Paladins Developer gets fired after a fight with a fan</h1>
+						<p class = "news_article_paragraph">
+                            <!-- This information is from source [4]-->
+				            After the announcement of the new payload gamemode Syberbolt, a famous youtuber of the game, had a heated confrontation with a developer. It was not pretty to say the least. They faught beacuse Syberbolt was angry that a developer wanted to remove the payload gamemode right around the time of its announcement. The developer was trolling and his conduct of the situation was unproffessional thus resulting in the termination of his employement.  
+						</p>
+					</div>
+
+                     <!-- article 3-->
+					<div class = "news_article_container" >
+						<div class = "anchor" id = "nyx_underpowered"></div>
+						<h1 class = "news_article_heading">
+							New champion Nyx is the first new champion to not be overpowered on release
+						</h1>
+						<p class = "news_article_paragraph">
+                            <!-- This information is from source [3]-->
+							 The new champion, Nyx, is heavily underpowered. Her dps and self sustain below the standards needed for her to be competetively viable against other champions in combat. This actually marks a first for the game as ever since the release of Vivian, every new champion released has allways needed emergency balance changes to tune them down as they were overpeowered. This picked with the release of Azaan who is by far the most overpowered champion released to date. It appears the company is learning from their mistakes. Hopefully Nyx will be appropriately buffed in the coming weeks
+						</p>
+					</div>
+
+				</div>
+			</main>
+
+<!------------------ Aside section------------------------------------------------------------------------->
+            <!--This section has two parts, the accessibility button and side menu, which appear
+                in a column with the accessibility button on top-->
+			<aside class = "main_side_menu">
+                 <!--This code was adapted from source [2] -->
+                <!-- accessibility options container-->
+				<div class = "accessibility_options">
+                    
+                    <!-- accessibility options button-->
+                    <!-- This is a dropdown button that when hovered on, displays the contents contained
+                    in the accessibility_options_dropdown_content div-->
+					<button class = "accessibility_options_button">Accessibility Options▼</button>
+                    
+                     <!-- accessibility options dropdown container-->
+                    <div class ="accessibility_options_dropdown_content">
+                            
+                        <!-- accessibility buttons that apply their respective accessibility feature-->
+                            <button class = "accessibility_button" id = "readable_text_button_news">
+                                Toggle readable font
+                            </button>
+                            <button class = "accessibility_button" id = "font_size_news" >
+                                Toggle bigger font size
+                            </button>
+                        </div>
+                    <!-- accessibility options script-->
+                    <script src ="scripts/Accessibility-news.js"></script>
+				</div>
+                
+            
+                <!-- side menu-->
+                <!-- this siction has a heading on top and then the list of items underneath one onother-->
+                <div class = "side_menu">
+                    <!-- side menu heading-->
+                    <h3 class = "side_menu_heading">Here is a list of all the news sections</h3>
+				    <!-- side menu list-->
+                    <ul>
+                        <!-- side menu list elements-->
+                        <li><a class = "side_menu_link" href = "#news_videos_anchor">videos</a></li>
+                        <li><a class = "side_menu_link" href = "#payload_return">Payload returns</a></li>
+                        <li><a class = "side_menu_link" href = "#dev_fired">Paladins Developer fired</a></li>
+                        <li><a class = "side_menu_link" href = "#nyx_underpowered">Nyx is not overpowered</a></li>
+				    </ul>
+                </div>
+			</aside>
+        
+        <!-- Footer section-->	
+        
+        <!-- The footer section appears at the bottom and is made up of three
+            sections that are laid out in a line next to each other-->
+        <footer class = "page_footer">
+            
+            <!-- A section with contact details-->	
+            <address class = "footer_contacts">
+                <p class = "footer_email">our-email@email-service.com</p>
+                <p class = "footer_number">999 999 9999</p>
+                <a class = "footer_contact_link" href = "page-5.html"> contact us here</a>
+            </address>
+            
+            
+            <!-- Main footer title section-->	
+            <div class = "footer_title_container">
+                <h1 class = "footer_title">Preston's Paladins Press</h1>
+            </div>
+            
+            <!-- Footer about section-->
+			
+			<div class = "footer_about">
+                 <a class = "footer_about_link" href = "page-4.html"> learn more about us here</a>
+            </div>
+        </footer>
+    </body>
+    
+</html>

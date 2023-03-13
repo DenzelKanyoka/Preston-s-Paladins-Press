@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Preston's Paladins Press Homepage</title>
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A news website for the game paladins that includesinformation 
+            about the current meta as decided by the community, as well as news about prominent community memebers.">
+        <meta name = "keywords" content = "Preston's Paladins Press, Paladins, Realm, balance changes,community news, meta">
+        <meta name = "author" content="Denzel Rufaro Kanyoka">
+        <meta name = "veiwport" content = "width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" type = "text/css" href = "StyleSheets/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bungee Spice' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    
+    <body>
+        
+        <!-- header section -->
+        
+        <!-- The header section has two elements inside it. The Main title. And the 
+            header links that lead to other pages. The main title appears on top. And the
+            links appear at the bottom next to each other-->
+        <header class = "heading">
+            
+            <!-- The main title-->
+            <section class = "heading_title_container">
+                <h1 class = "heading_title">Preston's Paladins Press</h1>
+            </section>
+            
+            <!-- Menu section -->
+            <nav class = "heading_menu">
+                <!-- The menu links--------------------------------------------------------------->
+				<a class = "menu_link" href = "index.html" id= "home_link"> home</a> 
+                <a class = "menu_link" href = "page-2.html" id= "community_link"> Community news</a> 
+                <a class = "menu_link" href = "page-3.html" id="meta_link"> Meta information</a>
+                <a class = "menu_link" href = "page-4.html" id = "about_link"> About us</a>
+                <a class = "menu_link" href = "page-5.html" id ="contact_link"> Contact us</a>
+            </nav>
+        </header>
+        
+	       <!-- main area-->
+			<main class = "main_area" id = "index_main">
+                
+                <!-- headlines banner-->
+                <!--This code was adaptaed from source [1] -->
+                <!-- The banner rotates through 3 pages and has left and right buttons-->
+			   <div class = "community_headlines_banner" id = "community_headlines_banner">
+				   
+                   <!-- left button-->
+				   	<div class = "headline_button headline_button_previous" id = "headline_button_previous">
+				   </div>
+				   
+                   <!-- Banner pages-->
+     <!---------- Each page has a heading and an image with a link-------------------------------------------->
+				   	<div class = "community_image_banner" id = "community_image_banner_3">
+						<h1 class = "headline">Payload returns after half a decade</h1>
+						<a href = "page-2.html"> <img src = "assets/images/Payload-headline.jpg" width = "720" height="440" class="headline_image" alt = "an image of concept art for the payload gamemode"> </a>  
+						
+				   	</div>
+
+				   	<div class = "community_image_banner" id = "community_image_banner_2">
+						<h1 class = "headline">New champion Nyx is the first new champion to not be overpowered on release</h1>
+						<a href = "page-2.html"> <img src = "assets/images/Nyx-headline.jpg" width = "720" height="440" class="headline_image" alt = "an image of nyx on her throne overlooking azaan"> </a>  
+						
+				   	</div>
+
+				   	<div class = "community_image_banner" id = "community_image_banner_1">
+						<h1 class = "headline">Paladins developer gets fired after a fight with a fan</h1>
+						<a href = "page-2.html"> <img src = "assets/images/Fired-headline.webp" width = "720" height="440" class="headline_image" alt = "an image of a pink of a white cat and a light brown dog in maeve's and evie's attire respectively"> </a>  
+						
+				   	</div>
+				   
+    <!------------------------- right button------------------------------------------------------------------->
+				   <div class = "headline_button headline_button_next" id = "headline_button_next">
+				   </div>
+				</div> 
+				<!-- headlines banner scrript-->
+				<script src = "scripts/headlines-banner.js"></script>
+                
+                
+                
+				<!-- article sectio-->
+                <!-- This section has two articles that appear next to each other in a row-->
+				<div id = "home_article_section">
+                    
+                    <!-- The first article-->
+                    <!-- all elements appear in a column. On top is a heading. Then the article paragraph and
+                    then a link to the full patch notes-->
+					<article id = "home_article_section_1_container" >
+                        <!-- article heading-->
+						<h1 id = "home_article_section_1_heading"> Latest patch notes summary</h1>
+                        <!-- article paragraph-->
+						<p id = "home_article_section_1_paragraph">
+                            <!-- This information is from source [3]-->
+							A new champion named Nyx has been added. She is an off tank frontline. The payload gamemode has also returned but will only be available as a limited time mode taking place during the weekdays. The new battle pass has four skins. Tow for Saati and two for seris. As usuall there are also sprays and emotes as well as skin and battle boosters. Vivian, pip and koga each get a skin outside the battlepass this time. Pip, Furia, Grover and Grohk have had their healing buffed. Androxed has had one of his talents swapped. A lot of cooldowns were reduced and bugs were fixed.
+						</p>
+                        
+                        <!-- full patch notes heading-->
+						<h2 id = "home_article_section_1_patch_notes_heading">Check out the patch notes here</h2>
+                        <!-- full patch notes link-->
+						<a id = "home_article_section_1_patch_notes_link" href = "https://www.paladins.com/news/season-6-emergence-update" target="_blank">
+							here
+						</a>
+					</article>
+                    
+                    
+                    <!-- Second article-->
+                    <!-- all elements appear in a column. First a heading, then a table, then a paragraph-->
+					<article id = "home_article_section_2_container">
+                        <!-- article heading-->
+						<h1 id = "home_article_section_2_heading"> Here are the top performing characters in each role</h1>
+                        
+                        
+                        <!-- article table-->
+						<table id = "home_article_section_2_table">
+                            
+        <!--------------------------- Article table rows -------------------------------------------------------> 
+        <!--. Each item appears in a row. First the Character class, Than the chracter name,then the character image-->                  
+							<tr class = "home_article_section_2_table_row"> 
+								<th class = "home_article_section_2_table_heading">Damage</th>
+								<td class = "home_article_section_2_table_data">Saati</td>
+								<td class = "home_article_section_2_table_data">
+									<img class = "home_article_section_2_table_image" src = "assets/images/saati.webp" width="192" height="144" alt = "A headshot image of Saati">
+								</td>
+							</tr>
+                            
+							<tr class = "home_article_section_2_table_row"> 
+								<th class = "home_article_section_2_table_heading">Flank</th>
+								<td class = "home_article_section_2_table_data">Androxus</td>
+								<td class = "home_article_section_2_table_data">
+									<img class = "home_article_section_2_table_image" src = "assets/images/androxus.webp" width="192" height="144" alt = "A headshot image of Androxus">
+								</td>
+							</tr>
+                            
+							<tr class = "home_article_section_2_table_row"> 
+								<th class = "home_article_section_2_table_heading">Support</th>
+								<td class = "home_article_section_2_table_data">Io</td>
+								<td class = "home_article_section_2_table_data">
+									<img class = "home_article_section_2_table_image" src = "assets/images/io.webp" width="192" height="144" alt = "A headshot image of Io">
+								</td>
+							</tr>
+                            
+							<tr class = "home_article_section_2_table_row"> 
+								<th class = "home_article_section_2_table_heading">Point tank</th>
+								<td class = "home_article_section_2_table_data">Fernando</td>
+								<td class = "home_article_section_2_table_data">
+									<img class = "home_article_section_2_table_image" src = "assets/images/fernando.webp" width="192" height="144" alt = "A headshot image of Fernando">
+								</td>
+							</tr>
+                            
+							<tr class = "home_article_section_2_table_row"> 
+								<th class = "home_article_section_2_table_heading">Off tank</th>
+								<td class = "home_article_section_2_table_data">Azaan</td>
+								<td class = "home_article_section_2_table_data">
+									<img class = "home_article_section_2_table_image" src = "assets/images/azaan.webp" width="192" height="144" alt = "A headshot image of Azaan">
+								</td>
+							</tr>
+                            
+						</table>
+                        
+<!------------------------article paragraph----------------------------------------------------------------->
+                           
+						<p id = "home_article_section_2_paragraph">
+                            <!-- This information is from source [4]-->
+							Saati still reigns as the top damage with her increadibly deadly headshot multiplier, displacement abilities and illuminate free AoE. Androxus is by far the most lethal flank in the game. With average skills needed for high succes, mastering him makes you nigh unbeatable. Io's healing uotput is unrivaled and her pet luna makes for an excellent body guard to protet her against flankers. Fernando remains the best point tank by far as his aegis talent allows him to remove cauterise and prolong his life. Azaanz's mobility and crowd control makes him the most dangerous off tank.
+						</p>
+					</article>
+				</div>
+			</main>
+
+			<!-- Aside section-->
+        
+            <!--This section has two parts, the accessibility button and side menu, which appear
+                in a column with the accessibility button on top-->
+			<aside class = "main_side_menu">
+                 <!--This code was adapted from source [2] -->
+                <!-- accessibility options container-->
+				<div class = "accessibility_options">
+                    
+                    <!-- accessibility options button-->
+                    <!-- This is a dropdown button that when hovered on, displays the contents contained
+                    in the accessibility_options_dropdown_content div-->
+					<button class = "accessibility_options_button">Accessibility Options▼</button>
+                    
+                     <!-- accessibility options dropdown container-->
+                    <div class ="accessibility_options_dropdown_content">
+                            
+                        <!-- accessibility buttons that apply their respective accessibility feature-->
+                            <button class = "accessibility_button" id = "readable_text_button_home">
+                                Toggle readable font
+                            </button>
+                            <button class = "accessibility_button" id = "font_size_home" >
+                                Toggle bigger font size
+                            </button>
+                        </div>
+                    <!-- accessibility options script-->
+                    <script src ="scripts/Accessibility-home.js"></script>
+				</div>
+                
+				<!-- side menu-->
+                <!-- this siction has a heading on top and then the list of items underneath one onother-->
+                <div class = "side_menu">
+                    <!-- side menu heading-->
+					<h3 class = "side_menu_heading"> Here are the links to the most popular youtubers</h3>
+                    <nav>
+                        
+                    
+                    <!-- side menu list-->    
+					<ul id = "youtuber_table">
+                        <!-- side menu list elements-->
+                        
+    <!------------------- This consist of the link on top then the image underneath-------------------------->
+                        
+						<li class = "youtuber_table_row">
+								<a class = "youtuber_table_heading" href = "https://www.youtube.com/@AndrewChicken" target="_blank">
+									AndrewChicken
+								</a> 
+								<img class = "youtuber_table_data" src = "assets/images/Andrew-profile.jpg" width="192" height="144" alt = "an image of the youtube icon of AndrewChicken">
+						</li>
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href = "https://www.youtube.com/@FrostFangs" target="_blank">
+									 FrostFangs
+								 </a>						 
+								<img class = "youtuber_table_data" src = "assets/images/Frost-profile.jpg" width="192" height="144" alt = "an image of the youtube icon of FrostFangs">							 
+						</li>
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href = "https://www.youtube.com/@omgitskami" target="_blank">
+									 KamiVS
+								 </a>
+								<img class = "youtuber_table_data" src = "assets/images/Kami-profile.jpg" width="192" height="144" alt = "an image of the youtube icon of KamiVS">
+						</li>
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href = "https://www.youtube.com/@KirbZM" target="_blank">
+									 KirbZM
+								 </a>
+								<img class = "youtuber_table_data" src = "assets/images/Kirb-profile.jfif" width="192" height="144" alt = "an image of the youtube icon of KirbZM">
+						</li>  
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href ="https://www.youtube.com/@Kreepers" target="_blank">
+									 Kreepers
+								 </a>
+								<img class = "youtuber_table_data" src = "assets/images/Kreepers-profile.jpg" width="192" height="144" alt = "an image of the youtube icon of Kreepers">
+							
+						</li>
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href ="https://www.youtube.com/@DaddyMouse" target="_blank">
+									 DaddyMouse
+								 </a>
+								<img class = "youtuber_table_data" src = "assets/images/Mouse-profile.jpg" width="192" height="144" alt = "an image of the youtube icon of DaddyMouse">
+						</li>
+
+						 <li class = "youtuber_table_row">
+								 <a class = "youtuber_table_heading" href ="https://www.youtube.com/@Syberbolt" target="_blank">
+									 Syberbolt
+								 </a>
+								<img class = "youtuber_table_data" src = "assets/images/Syber-profile.jpeg" width="192" height="144" alt = "an image of the youtube icon of Syberbolt">
+						</li>
+					</ul>
+                    </nav>
+				</div>
+			</aside>
+       
+		
+		
+       <!-- Footer section------------------------------------------------------------------------------------->	
+        
+        <!-- The footer section appears at the bottom and is made up of three
+            sections that are laid out in a line next to each other-->
+        <footer class = "page_footer">
+            
+            <!-- A section with contact details-->	
+            <address class = "footer_contacts">
+                <p class = "footer_email">our-email@email-service.com</p>
+                <p class = "footer_number">999 999 9999</p>
+                <a class = "footer_contact_link" href = "page-5.html"> contact us here</a>
+            </address>
+            
+            
+            <!-- Main footer title section-->	
+            <div class = "footer_title_container">
+                <h1 class = "footer_title">Preston's Paladins Press</h1>
+            </div>
+            
+            <!-- Footer about section-->
+			
+			<div class = "footer_about">
+                 <a class = "footer_about_link" href = "page-4.html"> learn more about us here</a>
+            </div>
+        </footer>
+    </body>
+    
+</html>
